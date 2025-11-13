@@ -1,5 +1,65 @@
 [
-  {"name":"kenan", "date":"22h ago","title":"this is title1","content":"this is content1"}
-  ,{"name":"nawar", "date":"18h ago","title":"this is title2","content":"this is content2"}
-  ,{"name":"nawar", "date":"15h ago","title":"this is title3","content":"this is content3"}
+  {
+    "name": "kenan",
+    "date": "22h ago",
+    "title": "this is title1",
+    "content": "this is content1",
+    "profile": {
+      "name": "Kenan"
+    },
+    "comments": [
+      {
+        "name": "nawar",
+        "date": "21h ago",
+        "comment": "Nice post, Kenan!"
+      },
+      {
+        "name": "layla",
+        "date": "20h ago",
+        "comment": "I totally agree with this."
+      }
+    ]
+  },
+  {
+    "name": "nawar",
+    "date": "18h ago",
+    "title": "this is title2",
+    "content": "this is content2",
+    "profile": {
+      "name": "Nawar"
+    },
+    "comments": [
+      {
+        "name": "kenan",
+        "date": "17h ago",
+        "comment": "Interesting point, Nawar."
+      },
+      {
+        "name": "sara",
+        "date": "16h ago",
+        "comment": "Can you explain more?"
+      }
+    ]
+  },
+  {
+    "name": "nawar",
+    "date": "15h ago",
+    "title": "this is title3",
+    "content": "this is content3",
+    "profile": {
+      "name": "Nawar"
+    },
+    "comments": [
+      {
+        "name": "omar",
+        "date": "14h ago",
+        "comment": "This was really helpful, thanks!"
+      },
+      {
+        "name": "kenan",
+        "date": "13h ago",
+        "comment": "Loved this post!"
+      }
+    ]
+  }
 ]
